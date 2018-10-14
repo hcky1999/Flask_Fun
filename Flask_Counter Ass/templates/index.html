@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Counter </title>
+
+
+<style>
+    h3{
+        font-size:45px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black
+        
+    }
+    body{
+        background-color: rgb(8, 235, 235);
+    }
+
+
+    
+    
+</style>
+
+
+
+<body>
+    <h1><b>Counter Game</b></h1>
+    <h2>You have visited this site!!! </h2>  
+    <h3> {{count}}</h3>
+
+    <form action='/plusTwo' method='post'>
+        <input type='submit' value="Plus Two"  
+        style="font-size : 20px; width: 160px; height: 25px;"  >
+    </form>
+
+    <form action='/reset' method='post'>
+        <input type ='submit' value='Reset' 
+        style="font-size : 20px; width: 160px; height: 25px;"  >
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
